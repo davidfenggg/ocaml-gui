@@ -1,0 +1,42 @@
+### Starting build.
+# Target: widgetTest.ml.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:ml, file:widgetTest.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules widgetTest.ml > widgetTest.ml.depends # cached
+# Target: widgetTest.mli.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:mli, file:widgetTest.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules widgetTest.mli > widgetTest.mli.depends # cached
+# Target: gctx.mli.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:mli, file:gctx.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules gctx.mli > gctx.mli.depends # cached
+# Target: gctx.cmi, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), byte, compile, debug, extension:mli, file:gctx.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o gctx.cmi gctx.mli # cached
+# Target: widgetTest.cmi, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), byte, compile, debug, extension:mli, file:widgetTest.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o widgetTest.cmi widgetTest.mli # cached
+# Target: assert.ml.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:ml, file:assert.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules assert.ml > assert.ml.depends # cached
+# Target: assert.mli.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:mli, file:assert.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules assert.mli > assert.mli.depends # cached
+# Target: assert.cmi, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), byte, compile, debug, extension:mli, file:assert.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o assert.cmi assert.mli # cached
+# Target: assert.cmx, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), compile, debug, extension:cmx, extension:ml, file:assert.cmx, file:assert.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o assert.cmx assert.ml # cached
+# Target: gctx.ml.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:ml, file:gctx.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules gctx.ml > gctx.ml.depends # cached
+# Target: g.ml.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:ml, file:g.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules g.ml > g.ml.depends
+# Target: g.cmo, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), byte, compile, debug, extension:cmo, extension:ml, file:g.cmo, file:g.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o g.cmo g.ml
+# Target: g.cmx, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), compile, debug, extension:cmx, extension:ml, file:g.cmx, file:g.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o g.cmx g.ml
+# Target: gctx.cmx, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), compile, debug, extension:cmx, extension:ml, file:gctx.cmx, file:gctx.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o gctx.cmx gctx.ml # cached
+# Target: widget.ml.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:ml, file:widget.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules widget.ml > widget.ml.depends # cached
+# Target: widget.mli.depends, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, extension:mli, file:widget.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -modules widget.mli > widget.mli.depends # cached
+# Target: widget.cmi, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), byte, compile, debug, extension:mli, file:widget.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o widget.cmi widget.mli # cached
+# Target: widget.cmx, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), compile, debug, extension:cmx, extension:ml, file:widget.cmx, file:widget.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o widget.cmx widget.ml
+# Target: widgetTest.cmx, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), compile, debug, extension:cmx, extension:ml, file:widgetTest.cmx, file:widgetTest.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix -o widgetTest.cmx widgetTest.ml
+# Target: widgetTest.native, tags: { package(graphics), package(js_of_ocaml), package(js_of_ocaml-lwt), package(js_of_ocaml-lwt.graphics), package(unix), debug, dont_link_with, extension:native, file:widgetTest.native, link, native, ocaml, program, quiet, traverse }
+ocamlfind ocamlopt -linkpkg -g -package js_of_ocaml-lwt.graphics -package js_of_ocaml-lwt -package js_of_ocaml -package graphics -package unix assert.cmx g.cmx gctx.cmx widget.cmx widgetTest.cmx -o widgetTest.native
+# Compilation successful.

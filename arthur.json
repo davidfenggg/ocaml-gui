@@ -1,0 +1,10 @@
+{
+    "toLint": ["./gctx.ml", "./widget.ml", "./paint.ml"],
+    "global": {
+	"disable": ["IfNotCond","TupleProj"]
+    }, 
+    "locals": [ 
+    ]
+}
+
+

@@ -1,0 +1,22 @@
+{
+    // Configure your Run and Preview buttons here.
+    // Run button configuration
+    "commands": {
+      "Build Project": "clear && make all",
+      "Run widgetTest": "clear && make runwidgetTest",
+      "Clean Project": "make clean; sleep 1; exit 0",
+      "Prettify File": "ocp-indent -i {{filepath}}",
+      "Style Check Project": "camelot -show student -c arthur.json",
+      "Zip": "make zip; sleep 1; exit 0"
+    },
+
+    // Preview button configuration
+    "preview": {
+      "gdemo": "http://{{domain}}/gdemo.html",
+      "lightbulb": "http://{{domain}}/lightbulb.html",
+      "notifierdemo": "http://{{domain}}/notifierdemo.html",
+      "paint": "http://{{domain}}/paint.html",
+      "CIS 120": "http://www.cis.upenn.edu/~cis120/current/index.shtml",
+      "Homework Instructions": "https://www.cis.upenn.edu/~cis120/current/hw/hw05/" 
+    }
+}
